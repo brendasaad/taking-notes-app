@@ -55,15 +55,6 @@ textarea:focus {
   outline: none;
 }
 
-/* input {
-  border: none;
-  background-color: #67d7cc;
-}
-
-input:focus {
-  outline: none;
-} */
-
 .generic-button {
   background-color: #e1e1e1;
   border: none;
@@ -104,6 +95,8 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .search {
@@ -127,6 +120,51 @@ input:focus {
 .title {
   font-weight: bold;
   font-size: 12px;
+}
+
+.title button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.title button:hover {
+  background: rgba(255, 255, 255, 0);
+}
+
+.title input {
+  background: #fef68a;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.date button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.date button:hover {
+  background: rgba(255, 255, 255, 0);
+}
+
+.date input {
+  background: #fef68a;
+  color: black;
+  font-weight: bold;
+  border: none;
+  font-size: 10px;
+  font-weight: lighter;
 }
 
 .text {
