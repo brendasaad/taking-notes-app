@@ -137,8 +137,9 @@ textarea:focus {
 .title input {
   background: #fef68a;
   color: black;
-  font-weight: bold;
+  font-weight: 200;
   border: none;
+  font-size: 12px;
 }
 
 .date {
@@ -170,4 +171,5 @@ textarea:focus {
 .text {
   font-weight: 300;
   font-size: 12px;
+  line-break: anywhere;
 }
