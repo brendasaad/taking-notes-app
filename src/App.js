@@ -46,7 +46,7 @@ function App() {
         <SearchBar handleSearchNote={setSearchText} />
         <NotesList
           notes={notes.filter((note) =>
-            note.text.toLowerCase().includes(searchText)
+            note.title.toLowerCase().includes(searchText)
           )}
           handleAddNote={addNote}
           handleDeleteNote={deleteNote}
