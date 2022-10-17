@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Technical Frontend Challenge - Taking Notes App - by: Brenda Saad 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
